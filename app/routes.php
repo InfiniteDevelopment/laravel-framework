@@ -13,6 +13,9 @@
 
 Route::get('/', function()
 {
+	$timezone = date_default_timezone_get();
+	return $timezone;
+	return DateTimeZone::getName();
 	return $_ENV['TEST_STRIPE_KEY'];
 	return View::make('hello');
 });
