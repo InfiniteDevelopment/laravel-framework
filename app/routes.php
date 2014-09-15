@@ -13,5 +13,6 @@
 
 Route::get('/', function()
 {
+	return $_ENV['TEST_STRIPE_KEY'];
 	return View::make('hello');
 });
