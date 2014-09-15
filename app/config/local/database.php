@@ -23,11 +23,11 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'homestead',
-			'username'  => 'homestead',
-			'password'  => 'secret',
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
+			'database'  => 'jfq_0x123_com',
+			'username'  => 'root',
+			'password'  => '123456',
+			'charset'   => 'utf8mb4',
+			'collation' => 'utf8mb4_general_ci',
 			'prefix'    => '',
 		),
 
