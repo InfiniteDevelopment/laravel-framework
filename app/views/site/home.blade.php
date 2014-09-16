@@ -23,6 +23,6 @@
 	<div class='broadcast'>
 		<h1>{{ Config::get('settings.title') }}</h1>
 	</div>
-	<div id="footer"><hr class='line' />&copy; 2014 <a href="http://0x123.com">0x123.com</a></div>
+	<div id="footer"><hr class='line' />&copy;2014 <a href="http://0x123.com">0x123.com</a></div>
 </body>
 </html>
