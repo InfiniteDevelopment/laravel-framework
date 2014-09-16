@@ -31,7 +31,10 @@ ClassLoader::addDirectories(array(
 |
 */
 
-Log::useFiles(storage_path().'/logs/laravel.log');
+// Log::useFiles(storage_path().'/logs/laravel.log');
+
+$logFile = 'log-'.php_sapi_name().'.txt';
+Log::useDailyFiles(storage_path().'/logs/'.$logFile);
 
 /*
 |--------------------------------------------------------------------------
@@ -48,7 +51,15 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 
 App::error(function(Exception $exception, $code)
 {
-	Log::error($exception);
+        $pathInfo = Request::getPathInfo();
+        $message = $exception->getMessage() ?: 'Exception';
+        Log::error("$code - $message @ $pathInfo\r\n$exception");
+    
+        if (Config::get('app.debug')) {
+        	return;
+        }
+	
+	return Response::view('error/error', array('title'=>"$code", 'content'=>'404 Not Found'), $code);
 });
 
 /*
