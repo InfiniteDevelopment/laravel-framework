@@ -17,6 +17,7 @@ ClassLoader::addDirectories(array(
 	app_path().'/controllers',
 	app_path().'/models',
 	app_path().'/database/seeds',
+	app_path().'/libraries',
 
 ));
 
@@ -54,16 +55,7 @@ App::error(function(Exception $exception, $code)
 	$pathInfo = Request::getPathInfo();
 	$message = $exception->getMessage() ?: 'Exception';
 	Log::error("$code - $message @ $pathInfo\r\n$exception");
-    
-	$root_url = URL::to('/');
-	$parsedUrl = parse_url(URL::to('/'));
-	$host = explode('.', $parsedUrl['host']);
-	$subdomain = $host[0];
-	
-	if ($subdomain == 'api') {
-		return Response::json(array('code'=>'-1000', 'msg'=>'This API is not supported.'));
-	}
-	
+
 	if (Config::get('app.debug')) {
 		return;
 	}

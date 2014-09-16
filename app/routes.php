@@ -11,21 +11,12 @@
 |
 */
 
-Route::group(array('domain' => 'admin.jfq.0x123.com'), function() {
-	
-	Route::get('/', function() {
-		if (Input::get('elf') != 'xxc') {
-			App::abort(404);
-		}
-		return 'admin root';
-	});
+Route::group(array('domain' => "admin.jfq.0x123.com"), function() {
+	Route::controller('/', 'AdminController');
 });
 
-Route::get('/', function()
-{
-	$timezone = date_default_timezone_get();
-	return $timezone;
-	return DateTimeZone::getName();
-	return $_ENV['TEST_STRIPE_KEY'];
-	return View::make('hello');
+Route::group(array('domain' => 'api.jfq.0x123.com'), function() {
+	Route::controller('/', 'APIBaseController');
 });
+
+Route::get('/', 'HomeController@showWelcome');

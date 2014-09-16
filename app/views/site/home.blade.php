@@ -2,8 +2,8 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="utf-8">
-	<title>{{ $title }}</title>
 	<meta name="viewport" content="width=device-width">
+	<title>{{ Config::get('settings.title') }}</title>
 	<style type="text/css">
 		html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 		body { font-family: "Microsoft YaHei", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; background-color: transparent; color: #333; -webkit-font-smoothing: antialiased; }
@@ -21,8 +21,7 @@
 </head>
 <body>
 	<div class='broadcast'>
-		<h1>{{ $content }}</h1>
-		<a href="{{{ URL::to('/') }}}"><h1>返回首页</h1></a>
+		<h1>{{ Config::get('settings.title') }}</h1>
 	</div>
 	<div id="footer"><hr class='line' />&copy; 2014 <a href="http://0x123.com">0x123.com</a></div>
 </body>

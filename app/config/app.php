@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'QBUVl3OFh852HNJPZbGZvAngq0AnrczG',
+	'key' => 'fUezDdkByZZGZZyG9EzkRwc835gpvFbK',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -188,6 +188,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+		'Helper'	  => 'Helpers\Helper',
 
 	),
 
