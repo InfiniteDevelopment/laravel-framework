@@ -11,6 +11,16 @@
 |
 */
 
+Route::group(array('domain' => 'admin.jfq.0x123.com'), function() {
+	
+	Route::get('/', function() {
+		if (Input::get('elf') != 'xxc') {
+			App::abort(404);
+		}
+		return 'admin root';
+	});
+});
+
 Route::get('/', function()
 {
 	$timezone = date_default_timezone_get();
