@@ -7,7 +7,7 @@ class Helper {
 	/**
 	 * $data is type of null or array
 	 */
-	public static function json($data = array(), $msg = '', $code = 1) {
+	public static function json($data = null, $msg = '', $code = 1) {
 		$json = array(
 			'code' => $code,
 			'msg' => $msg,
