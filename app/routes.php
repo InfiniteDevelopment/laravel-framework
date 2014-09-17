@@ -11,12 +11,16 @@
 |
 */
 
-Route::group(array('domain' => "admin.jfq.0x123.com"), function() {
+Route::group(array('domain' => "admin.laravel-framework.com"), function() {
 	Route::controller('/', 'AdminController');
 });
 
-Route::group(array('domain' => 'api.jfq.0x123.com'), function() {
+Route::group(array('domain' => 'api.laravel-framework.com'), function() {
 	Route::controller('/', 'APIBaseController');
 });
 
 Route::get('/', 'HomeController@showWelcome');
+
+Route::get('test', function() {
+	return 'test';
+});

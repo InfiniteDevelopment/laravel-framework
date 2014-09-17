@@ -23,9 +23,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'database',
+			'database'  => 'laravel_framework',
 			'username'  => 'root',
-			'password'  => 'secret',
+			'password'  => '123456',
 			'charset'   => 'utf8mb4',
 			'collation' => 'utf8mb4_general_ci',
 			'prefix'    => '',

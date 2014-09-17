@@ -35,7 +35,7 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 			'local' => array('0x123'),
 		));
 		
- edit `app/config/[local/]database.php` , `app/config/settings.php`
+ edit `app/config/[local/]database.php` , `app/config/settings.php`, `app/routes.php`
 
 
 ### License
