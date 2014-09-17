@@ -28,10 +28,6 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 		$ composer create-project elfsundae/laravel-framework your-project-name --prefer-dist
 
 + configuration
-
-		$ cd your-project-name
-		$ chmod -R 777 app/storage/
-		$ php artisan key:generate
 	
  `$ hostname` to get hostname and edit `bootstrap/start.php`
  
