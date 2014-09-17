@@ -37,6 +37,17 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 		
  edit `app/config/[local/]database.php` , `app/config/settings.php`, `app/routes.php`
 
+### Included Package
+
+*require*
+
++ [jenssegers/agent](https://github.com/jenssegers/laravel-agent) : A user agent class for Laravel 4
++ [laravelbook/ardent](https://github.com/laravelbook/ardent) : Self-validating, secure and smart models for Laravel 4's Eloquent O/RM
+
+*require-dev*
+
++ [way/generators](https://github.com/JeffreyWay/Laravel-4-Generators) : Rapidly speed up your Laravel workflow with generators
++ [fzaninotto/faker](https://github.com/fzaninotto/Faker) : PHP library that generates fake data for you
 
 ### License
 

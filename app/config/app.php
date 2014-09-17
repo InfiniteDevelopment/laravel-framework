@@ -123,6 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		
 		'Jenssegers\Agent\AgentServiceProvider',
+		'Intervention\Image\ImageServiceProvider',
 
 	),
 
@@ -193,6 +194,7 @@ return array(
 		
 		'Helper'	  => 'Helpers\Helper',
 		'Agent'            => 'Jenssegers\Agent\Facades\Agent',
+		'Image' => 'Intervention\Image\Facades\Image',
 
 	),
 
