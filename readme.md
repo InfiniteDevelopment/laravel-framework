@@ -1,10 +1,10 @@
-## ElfSundae/laravel-framework
+## elfsundae/laravel-framework
 
-[![Build Status](https://travis-ci.org/ElfSundae/laravel-framework.svg)](https://travis-ci.org/ElfSundae/laravel-framework)
-[![Total Downloads](https://poser.pugx.org/ElfSundae/laravel-framework/downloads.svg)](https://packagist.org/packages/ElfSundae/laravel-framework)
-[![Latest Stable Version](https://poser.pugx.org/ElfSundae/laravel-framework/v/stable.svg)](https://packagist.org/packages/ElfSundae/laravel-framework)
-[![Latest Unstable Version](https://poser.pugx.org/ElfSundae/laravel-framework/v/unstable.svg)](https://packagist.org/packages/ElfSundae/laravel-framework)
-[![License](https://poser.pugx.org/ElfSundae/laravel-framework/license.svg)](https://packagist.org/packages/ElfSundae/laravel-framework)
+[![Build Status](https://travis-ci.org/elfsundae/laravel-framework.svg)](https://travis-ci.org/ElfSundae/laravel-framework)
+[![Total Downloads](https://poser.pugx.org/elfsundae/laravel-framework/downloads.svg)](https://packagist.org/packages/elfsundae/laravel-framework)
+[![Latest Stable Version](https://poser.pugx.org/elfsundae/laravel-framework/v/stable.svg)](https://packagist.org/packages/elfsundae/laravel-framework)
+[![Latest Unstable Version](https://poser.pugx.org/elfsundae/laravel-framework/v/unstable.svg)](https://packagist.org/packages/elfsundae/laravel-framework)
+[![License](https://poser.pugx.org/elfsundae/laravel-framework/license.svg)](https://packagist.org/packages/elfsundae/laravel-framework)
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
 
