@@ -23,9 +23,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'jfq_0x123_com',
+			'database'  => 'database',
 			'username'  => 'root',
-			'password'  => '123456',
+			'password'  => 'secret',
 			'charset'   => 'utf8mb4',
 			'collation' => 'utf8mb4_general_ci',
 			'prefix'    => '',

@@ -1,6 +1,6 @@
 <?php
 
 return array(
-	'domain' => 'jfq.0x123.com',
-	'title' => '赚钱宝',
+	'domain' => 'laravel-framework.com',
+	'title' => 'Laravel Framework',
 );

@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://jfq.0x123.com',
+	'url' => 'http://localhost',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'fUezDdkByZZGZZyG9EzkRwc835gpvFbK',
+	'key' => 'YourSecretKey!!!',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -121,6 +121,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		
 		'Jenssegers\Agent\AgentServiceProvider',
 
 	),
@@ -189,8 +190,8 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-		'Helper'	  => 'Helpers\Helper',
 		
+		'Helper'	  => 'Helpers\Helper',
 		'Agent'            => 'Jenssegers\Agent\Facades\Agent',
 
 	),

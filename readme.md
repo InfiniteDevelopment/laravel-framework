@@ -1,10 +1,10 @@
-## Laravel PHP Framework
+## ElfSundae/laravel-framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+[![Build Status](https://travis-ci.org/ElfSundae/laravel-framework.svg)](https://travis-ci.org/ElfSundae/laravel-framework)
+[![Total Downloads](https://poser.pugx.org/ElfSundae/laravel-framework/downloads.svg)](https://packagist.org/packages/ElfSundae/laravel-framework)
+[![Latest Stable Version](https://poser.pugx.org/ElfSundae/laravel-framework/v/stable.svg)](https://packagist.org/packages/ElfSundae/laravel-framework)
+[![Latest Unstable Version](https://poser.pugx.org/ElfSundae/laravel-framework/v/unstable.svg)](https://packagist.org/packages/ElfSundae/laravel-framework)
+[![License](https://poser.pugx.org/ElfSundae/laravel-framework/license.svg)](https://packagist.org/packages/ElfSundae/laravel-framework)
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
 
@@ -19,6 +19,33 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### Contributing To Laravel
 
 **All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+
+### Setup laravel-framework
+
++ install [Composer](https://getcomposer.org/)
+
++ install Laravel installer
+
+	$ composer global require "laravel/installer=~1.1"
+	
++ create project
+
+	$ composer create-project elfsundae/laravel-framework your-project-name --prefer-dist
+	
++ configuration
+
+	$ cd your-project-name
+	$ chmod -R 777 app/storage/
+	$ php artisan key:generate
+	
+ `$ hostname` to get hostname and edit `bootstrap/start.php`
+ 
+	$env = $app->detectEnvironment(array(
+		'local' => array('0x123'),
+	));
+		
+ edit `app/config/[local/]database.php` `app/config/settings.php`
+
 
 ### License
 

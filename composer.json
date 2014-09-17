@@ -1,12 +1,12 @@
 {
 	"name": "elfsundae/laravel-framework",
-	"description": "The Laravel Framework.",
+	"description": "A ready-to-use Laravel framework which integrates frontend, backed, JSON API, Twitter Bootstrap, etc.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
         "authors": [
             {
                 "name": "Elf Sundae",
-                "homepage": "http://www.0x123.com"
+                "homepage": "https://github.com/ElfSundae/laravel-framework"
             }
         ],
 	"require": {
