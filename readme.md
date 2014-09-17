@@ -19,28 +19,27 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### Setup laravel-framework
 
 + install [Composer](https://getcomposer.org/)
-
 + install Laravel installer
 
-	$ composer global require "laravel/installer=~1.1"
-	
+		$ composer global require "laravel/installer=~1.1"
+
 + create project
 
-	$ composer create-project elfsundae/laravel-framework your-project-name --prefer-dist
-	
+		$ composer create-project elfsundae/laravel-framework your-project-name --prefer-dist
+
 + configuration
 
-	$ cd your-project-name
-	$ chmod -R 777 app/storage/
-	$ php artisan key:generate
+		$ cd your-project-name
+		$ chmod -R 777 app/storage/
+		$ php artisan key:generate
 	
  `$ hostname` to get hostname and edit `bootstrap/start.php`
  
-	$env = $app->detectEnvironment(array(
-		'local' => array('0x123'),
-	));
+		$env = $app->detectEnvironment(array(
+			'local' => array('0x123'),
+		));
 		
- edit `app/config/[local/]database.php` `app/config/settings.php`
+ edit `app/config/[local/]database.php` , `app/config/settings.php`
 
 
 ### License
