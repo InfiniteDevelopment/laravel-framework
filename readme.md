@@ -1,6 +1,6 @@
 ## elfsundae/laravel-framework
 
-[![Build Status](https://travis-ci.org/elfsundae/laravel-framework.svg)](https://travis-ci.org/ElfSundae/laravel-framework)
+[![Build Status](https://travis-ci.org/ElfSundae/laravel-framework.svg?branch=master)](https://travis-ci.org/ElfSundae/laravel-framework)
 [![Total Downloads](https://poser.pugx.org/elfsundae/laravel-framework/downloads.svg)](https://packagist.org/packages/elfsundae/laravel-framework)
 [![Latest Stable Version](https://poser.pugx.org/elfsundae/laravel-framework/v/stable.svg)](https://packagist.org/packages/elfsundae/laravel-framework)
 [![Latest Unstable Version](https://poser.pugx.org/elfsundae/laravel-framework/v/unstable.svg)](https://packagist.org/packages/elfsundae/laravel-framework)
